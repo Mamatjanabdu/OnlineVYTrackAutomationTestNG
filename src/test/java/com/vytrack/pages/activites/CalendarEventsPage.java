@@ -60,7 +60,7 @@ public class CalendarEventsPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    public void selectGridSetting(String name, boolean yesOrNo) {
+    public void selectGridSetting(String name, boolean yesOrNo)  {
         //click on grid options
         gridSettingsElement.click();
         //create locator for grid option based on the name
